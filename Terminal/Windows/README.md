@@ -122,6 +122,18 @@ Set ~/.gitconfig file with the following content:
         email = hjlarrea@hotmail.com
 ```
 
+### Set ~/.ssh/config
+
+Add as many of these as required (based on the number of keys being used):
+
+```bash
+#Personal account
+Host github.com
+        HostName github.com
+        User git
+        IdentityFile ~/.ssh/id_rsa
+```
+
 ## ZSH
 
 1. Install Meslo font for PowerLevel10k: https://github.com/romkatv/powerlevel10k/blob/master/font.md
